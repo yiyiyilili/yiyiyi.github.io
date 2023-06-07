@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>数字识别</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>数字识别</h1>
+    </header>
+    <hr>
+    <div class="container">
+        <div class="upload-container">
+            <label for="image-input" class="custom-file-upload">
+                <span>点击上传图片</span>
+            </label>
+            <input type="file" id="image-input" accept="image/*">
+            <div id="image-preview"></div>
+        </div>
+        <div class="result-container">
+            <h2>识别结果:</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+    <div class="floating-numbers"></div>
+</body>
+</html>
